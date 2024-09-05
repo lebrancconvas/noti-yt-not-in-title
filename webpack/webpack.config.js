@@ -2,7 +2,7 @@ const path = require("path");
 const CopyPlugin = require("copy-webpack-plugin");
 
 
-export const WEBPACK_CONFIG = {
+module.exports = {
   mode: "production",
   entry: {
     background: path.join(__dirname, "..", "src", "index.ts")
